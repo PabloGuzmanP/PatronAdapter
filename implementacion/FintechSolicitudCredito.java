@@ -2,6 +2,7 @@ package implementacion;
 
 public class FintechSolicitudCredito {
     private String Cliente;
+    private String Edad;
     private double Valor;
 
     public String getCliente() {
@@ -18,5 +19,13 @@ public class FintechSolicitudCredito {
 
     public void setValor(double Valor) {
         this.Valor = Valor;
+    }
+
+    public String getEdad() {
+        return Edad;
+    }
+
+    public void setEdad(String edad) {
+        Edad = edad;
     }
 }
